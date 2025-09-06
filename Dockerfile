@@ -1,23 +1,19 @@
-# Use an official base image (you should change this to your appropriate language/runtime)
-FROM ubuntu:22.04
-
-# Install dependencies (example: Python, Node, C++ compilers, etc.)
-RUN apt-get update && apt-get install -y python3 python3-pip gcc nodejs npm
+# Use an official GCC image to build and run the C++ project
+FROM gcc:12
 
 # Set working directory
 WORKDIR /app
 
-# Copy project files
-COPY . .
+# Copy source code into container
+COPY src/ /app/
+COPY vendor/ /app/vendor/
 
-# Expose the port the app runs on (If required)
-# EXPOSE 3000
+# Build the C++ program
+RUN g++ -std=c++20 \
+    -I. \
+    -I./include \
+    -I./vendor/IntricatePointers/IntricatePointers/src/include \
+    -o hello source/Main.cpp
 
-# Example: Install Node.js deps
-# RUN npm install
-
-# Example: Install Python deps
-# RUN pip install -r requirements.txt
-
-# Default command (you should change this)
-CMD ["echo", "Hello from Docker! Customize me in Dockerfile."]
+# Run the program
+CMD ["./hello"]

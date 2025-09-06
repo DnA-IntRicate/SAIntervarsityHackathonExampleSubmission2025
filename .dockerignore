@@ -1,16 +1,8 @@
-# Ignore git and GitHub stuff
 .git
-.github
-
-# Ignore build outputs
-node_modules
-__pycache__
-target
-dist
-bin
-obj
-dist
-pkg
-.env
-.venv
-*.log
+.gitignore
+.editorconfig
+*.md
+assets/
+demo/
+docs/
+scripts/

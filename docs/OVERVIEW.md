@@ -1,29 +1,21 @@
-> *This document serves as a template for you to write a **brief overview** of your project.*
-
 # Project Overview
 
 ## 🎯 Project Name
-``` c
-// TODO: Enter your project name here
-```
+
+#### **SAIntervarsityHackathonExampleSubmission2025**
 
 ## 🚀 Summary
-``` c
-// TODO: Write a short, high-level description of your
-// project (2–3 sentences).
-```
+
+This is a demo that does nothing meaningful.
 
 ## ✨ Key Features
-``` c
-// TODO: List key features.
-```
+
+The project uses **Docker!!!**
 
 ## 💡 Inspiration
-``` c
-// TODO: Briefly explain the motivation behind your project.
-```
+
+Beats me. 🤷‍♂️
 
 ## 📌 Future Improvements
-``` c
-// TODO: Mention ideas or features you’d add if given more time.
-```
+
+Nothing...

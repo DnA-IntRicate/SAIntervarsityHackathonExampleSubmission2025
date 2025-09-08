@@ -19,7 +19,8 @@ There's nothing to use lol.
 
 ## 🎥 Demo
 
-Checkout the [Demo PowerPoint!](../demo/Demo.pptx)
+Checkout the [Demo PowerPoint!](../demo/Demo.pptx)  
+Checkout the [Demo Video!](https://youtu.be/e2R9APyatU4)
 
 ## 📌 Notes
 ### **;)**
